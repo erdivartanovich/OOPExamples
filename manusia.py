@@ -12,9 +12,11 @@ class Superhero(Manusia):
 
 
 manusia1 = Manusia('ivan')
-manusia2 = Manusia('erdi')
+manusia2 = Superhero('erdi')
 
 manusia1.berjalan()
+manusia2.berjalan()
+manusia2.terbang()
 
 
 
