@@ -21,7 +21,7 @@ class Wartawan extends Manusia {
     function menulis() {
         echo $this->name . " bisa menulis";
         echo "\n";
-        
+
     }
 }
 
@@ -57,7 +57,7 @@ echo $clark->kaki . "\n";
 $clark->terbang();
 
 
-function Party(AnjingSuper $undangan) {
+function Party(ISuperhero $undangan) {
     echo $undangan->name . " hadir di pesta" . "\n";
 }
 
@@ -65,7 +65,4 @@ Party($clark);
 
 // how buddy can invited to Party?
 // this code will be error, fix it!
-Party($buddy); 
-
-
-
+Party($buddy);
