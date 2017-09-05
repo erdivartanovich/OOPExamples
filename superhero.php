@@ -57,15 +57,16 @@ echo $clark->kaki . "\n";
 $clark->terbang();
 
 
-function Party(AnjingSuper $undangan) {
-    echo $undangan->name . " hadir di pesta" . "\n";
+function Party(Superman $undangan1, AnjingSuper $undangan2) {
+    echo $undangan1->name . " hadir di pesta" . "\n";
+    echo $undangan2->name . " hadir di pesta" . "\n";
 }
 
-Party($clark);
+Party($clark, $buddy);
 
 // how buddy can invited to Party?
 // this code will be error, fix it!
-Party($buddy); 
 
+//Party($buddy); 
 
 
